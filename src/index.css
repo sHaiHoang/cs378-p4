@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #f8f8f8;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f8f8f8;
 }
 
 .pokemon-app {
@@ -13,22 +19,25 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 350px;
+  font-family: 'Press Start 2P', cursive; /* Apply font to app */
 }
 
-.button-group {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 12px;
+h1, h2 {
+  font-family: 'Press Start 2P', cursive;
+  color: #ffcc00; /* Pokémon yellow */
+  text-shadow: 2px 2px 0px black;
 }
 
 button {
   background-color: #ffcc00;
   border: none;
-  padding: 8px 16px;
+  padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
   font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+  color: black;
+  text-shadow: 1px 1px 0px white;
 }
 
 button.active {
@@ -36,30 +45,9 @@ button.active {
   color: white;
 }
 
-.input-group {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 12px;
-}
-
-input {
-  padding: 6px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.add-btn {
-  margin-left: 4px;
-  padding: 6px;
-  font-size: 16px;
-  background-color: #ff5733;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
 .pokemon-info h2 {
   color: #ff5733;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .pokemon-info img {
